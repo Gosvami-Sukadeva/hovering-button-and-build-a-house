@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Domek</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        span {
+            position: absolute;
+            top: 10vh;
+            left: 15vw;
+            padding: 20px 20px;
+            border: 3px solid black;
+            cursor: pointer;
+            background-color: brown;
+            color: white;
+        }
+
+        .first {
+            position: absolute;
+            top: 90vh;
+            left: 10vw;
+            transition: 1s;
+
+        }
+
+        .second {
+            position: absolute;
+            top: 90vh;
+            left: 10vw;
+            transition: 1s;
+        }
+
+        .third {
+            position: absolute;
+            top: 90vh;
+            left: 10vw;
+            transition: 1s;
+        }
+
+        .fourth {
+            position: absolute;
+            top: 90vh;
+            left: 10vw;
+            transition: 1s;
+        }
+
+        .fifth {
+            position: absolute;
+            top: 90vh;
+            left: 10vw;
+            transition: 1s;
+        }
+
+        .sexth {
+            position: absolute;
+            top: 90vh;
+            left: 10vw;
+            transition: 1s;
+        }
+
+        span:hover~div.first {
+            position: absolute;
+            top: 300px;
+            left: 600px;
+            width: 500px;
+            height: 300px;
+            background-color: brown;
+        }
+
+        span:hover~div.second {
+            position: absolute;
+            top: 380px;
+            left: 650px;
+            width: 80px;
+            height: 100px;
+            background-color: yellow;
+        }
+
+        span:hover~div.third {
+            position: absolute;
+            top: 380px;
+            left: 980px;
+            width: 80px;
+            height: 100px;
+            background-color: yellow;
+        }
+
+        span:hover~div.fourth {
+            position: absolute;
+            top: 400px;
+            left: 800px;
+            width: 100px;
+            height: 200px;
+            background-color: gray;
+        }
+
+        span:hover~div.fifth {
+            position: absolute;
+            top: 125px;
+            left: 674px;
+            width: 350px;
+            height: 350px;
+            background-color: black;
+            z-index: -1;
+            transform: rotate(45deg);
+        }
+
+        span:hover~div.sexth {
+            position: absolute;
+            top: 125px;
+            left: 700px;
+            width: 60px;
+            height: 80px;
+            background-color: gray;
+            z-index: -2;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <span>BUDUJEMY</span>
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="fourth"></div>
+    <div class="fifth"></div>
+    <div class="sexth"></div>
+</body>
+
+</html>
